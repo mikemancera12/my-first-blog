@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha256-KC5lAzGRWwscU0sTmXtd8ka5mt7Vk8a0L5JqOhwA28s= sha512-+f2l7T69JKgnn0+Lc8P0WpM4J34GfEIInTI+iLOQWekcR9KxXE1epKQkwzFIZ7mf12jQlCryh2HfZqS8GcpR8Q==" crossorigin="anonymous">
 		<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'> <!-- link para fuente "pacifico" de googleFonts -->
@@ -12,14 +12,16 @@
 			margin-top: 30px;
 		}
 			.pacifico{
-				font-family: 'Pacifico', cursive;
+				font-family: 'Pacifico';
 			}
 			.rokkits{
 				font-family: 'Rokkitt', serif;
+				color: #2ABFB7;
 			}
 			.rokkit{
 				font-family: 'Rokkitt', serif;
-				margin-top: -20px;
+				margin-top: -30px;
+				font-size: 60px;
 			}
 			div.secciones {
 				height: 900px;
@@ -30,41 +32,51 @@
 			}
 			nav {
 				position: fixed;
-				top: 2px;
-				left: 825px;
+				top: 0px;
+				left: 0px;
 				width: 100%;
 				background-color: rgba(255, 255, 255, 0.5);
 				padding: 5px 0px;
+				text-align: right;
 			}
 			nav a {
-				padding: 10px;
+				padding: 6px;
 				text-decoration: none;
-				font-size: 22px;
+				font-size: 20px;
 				color: black;
+				text-align: center;
+			}
+			img {
+				width: 500px;
+				height:400px;
+			}
+			h1 {
+				font-size: 100px;
+				color: #2ABFB7;
 			}
 		</style>
 	</head>
 	<body>
-		<nav class="text-rigth pacifico">
+		<nav class="text-center rokkits">
 			<a href="#seccion-0" class="opcion-menu">Linux</a> |
 			<a href="#seccion-2" class="opcion-menu">Windows</a> |
 			<a href="#seccion-3" class="opcion-menu">Mac OS</a> |
 			<a href="#seccion-5" class="opcion-menu">Video</a> |
 			<a href="#seccion-4" class="opcion-menu">Contacto</a> |
-
 		</nav>
-		<div class="container-fluid" id="seccion-0">
-			<h1 class="pacifico text-center" style="color:#2ABFB7">			
-			</style>Mike Mancera</h1>
-			<h2 class="rokkit text-center">Developer Jr</h2>
+		<div class="container-fluid text-center" id="seccion-0">
+			<h1 class="pacifico text-center">Mike Mancera</h1>
+			<h2 class="rokkit text-center">Developer Jr</h2><br>
+			<img src="https://pixabay.com/static/uploads/photo/2012/04/01/12/24/penguin-23159_960_720.png" class="img-responsive center-block" alt="Tux Pinguin">
 		</div>
-		<img src="" alt="">
+		<br><br><br>
 		<div class="container auto-responsive">
 			
 			<div class="secciones well" id="seccion-1">
 				<h1 class="rokkit text-center"><br>Linux</h1>
 				<br><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 				</p>
+				
 			</div>
 			<div class="secciones well" id="seccion-2">
 				<h1 class="text-center rokkit"><br>Windows</h1>
@@ -75,13 +87,13 @@
 				<h1 class="text-center rokkit"><br>Mac OS</h1>
 				<br><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
-			<div class="secciones well text-center" id="seccion-5">
+			<div class="secciones well text-center auto-responsive" id="seccion-5">
 				<h1 class="rokkit text-center"><br>Video</h1>
 				<br>
 				
-					
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/WU3UIrq3ix8" frameborder="0" allowfullscreen></iframe>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/yNnEyLw6MA4" frameborder="0" allowfullscreen></iframe>				
+				
+				<iframe width="460" height="300" src="https://www.youtube.com/embed/WU3UIrq3ix8" frameborder="0" allowfullscreen></iframe><br><br>
+				<iframe width="460" height="300" src="https://www.youtube.com/embed/yNnEyLw6MA4" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<br>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -113,16 +125,16 @@
 			});
 			</script>
 		</body>
-
 		<footer>
 			<div class="container-fluid well text-center" id="seccion-4">
 				<p>
 					Mike Mancera Developer Copyleft 2016 | Buscame en <a href="https://github.com/mikemancera12" target="_blank">Mike Mancera12</a>
 				</p>
+				
 			</div>
 		</footer>
 		
-		
+		<script src="http://code.jquery.com/jquery.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 	</body>
 </html>
