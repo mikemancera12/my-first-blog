@@ -1,0 +1,82 @@
+			body {
+			margin-top: 30px;
+			}
+			.pacifico{
+				font-family: 'Pacifico';
+				color: #1CA6BF;
+			}
+			.rokkits{
+				font-family: 'Rokkitt', serif;
+				color: #093740;
+			}
+			.rokkit{
+				font-family: 'Rokkitt', serif;
+				margin-top: -30px;
+				font-size: 60px;
+				color: #136E7F;
+			}
+			div.secciones {
+				
+				
+				margin-bottom: 20px;
+				border-bottom: 3px solid #666;
+				font-size: 26px;
+			}
+			nav {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				/*
+				*background-color: rgba(255, 255, 255, 0.5);
+				hace que el nav sea trnsparente
+				*/
+				padding: 5px 0px;
+				text-align: center;
+			}
+			nav a {
+				padding: 6px;
+				text-decoration: none;
+				font-size: 16px;
+				color: black;
+				text-align: center;
+			}
+			img {
+				width: 700px;
+				height:600px;
+			}
+			h1 {
+				font-size: 90px;
+				color: #2ABFB7;
+			}
+			h2 {
+				font-size: 50px;
+				color: #2ABFB7;
+			}
+			#jumbo{
+				background-image: url("https://pixabay.com/static/uploads/photo/2015/03/29/08/55/entrepreneur-696976_960_720.png");
+				background-position: center;
+				background-repeat: no-repeat;
+				text-align: right;
+				color:#2ABFB7;
+			}
+			#pingux{
+				width: 280px;
+				height:200px;
+			}
+			#imgmenu{
+				width: 60px;
+				height: 30px;
+			}
+			.navbar{
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				width: 100%;
+				/*
+				*background-color: rgba(255, 255, 255, 0.5);
+				hace que el nav sea trnsparente
+				*/
+				padding: 3px 0px;
+				text-align: center;
+			}

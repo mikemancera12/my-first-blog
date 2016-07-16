@@ -3,33 +3,33 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" rel="stylesheet" integrity="sha256-KC5lAzGRWwscU0sTmXtd8ka5mt7Vk8a0L5JqOhwA28s= sha512-+f2l7T69JKgnn0+Lc8P0WpM4J34GfEIInTI+iLOQWekcR9KxXE1epKQkwzFIZ7mf12jQlCryh2HfZqS8GcpR8Q==" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-2mX2PSpkRSXLQzmNzH3gwK6srb06+OfbDlYjbog8LQuALYJjuQ3+Yzy2JIWNV9rW" crossorigin="anonymous">
 		<link href='https://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'> <!-- link para fuente "pacifico" de googleFonts -->
-		
-		<title>Mike Mancera Developer Jr</title>
-		<style>
-		body {
+		<style type="text/css" media="screen">
+					body {
 			margin-top: 30px;
-		}
+			}
 			.pacifico{
 				font-family: 'Pacifico';
+				color: #1CA6BF;
 			}
 			.rokkits{
 				font-family: 'Rokkitt', serif;
-				color: #2ABFB7;
+				color: #093740;
 			}
 			.rokkit{
 				font-family: 'Rokkitt', serif;
 				margin-top: -30px;
 				font-size: 60px;
+				color: #136E7F;
 			}
 			div.secciones {
 				
 				
 				margin-bottom: 20px;
 				border-bottom: 3px solid #666;
-				font-size: 26px;
+				font-size: 22px;
 			}
 			nav {
 				position: fixed;
@@ -52,7 +52,7 @@
 			}
 			img {
 				width: 700px;
-				height:600px;
+				height:400px;
 			}
 			h1 {
 				font-size: 90px;
@@ -77,6 +77,18 @@
 				width: 60px;
 				height: 30px;
 			}
+			#ti,#consultoria{
+				width: 150px;
+				height: 150px;
+			}
+			#principal{
+				width: 900px;
+				height: 300px;
+			}
+			#principalxs{
+				width: 210px;
+				height: 170px;
+			}
 			.navbar{
 				position: fixed;
 				top: 0px;
@@ -88,111 +100,238 @@
 				*/
 				padding: 3px 0px;
 				text-align: center;
-
-			}
+				}
 		</style>
+		<title>EasyTools | Systems Development</title>
+		
 	</head>
 	<body>
+		
 		<nav id="navbar1" class="navbar navbar-default visible-lg visible-md">
 			<ul class="nav nav-pills">
-				<li role="presentation" class="active"><a href="#seccion-0">Home</a></li>
-				<li role="presentation" class="active"><a href="#seccion-2">Acerca de</a></li>
-				<li role="presentation" class="active"><a href="#seccion-3">Proyectos</a></li>
-				<li role="presentation" class="active"><a href="#seccion-4">Videos</a></li>
+				<li role="presentation" class="active"><a href="#seccion-0">Inicio</a></li>
+				<li role="presentation"><a href="#seccion-2">Nosotros</a></li>
+				<li role="presentation"><a href="#seccion-3">Portafolio</a></li>
+				<li role="presentation"><a href="#seccion-4">Videos</a></li>
 				<li role="presentation"><a href="#seccion-5">Contacto</a></li>
+				<!--<li role="presentation"><a href="blog/comprados.html">Comprados</a></li>-->
 				
 			</ul>
 		</nav>
 		<nav class="navbar navbar-default visible-xs visible-xm">
 			<ul class="nav nav-pills nav-stacked">
-				<li><a href="" title="">
+				<li><a href="#seccion-0" title="">
 					<img id="imgmenu" src="https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png" alt="">
-				</a>
-			</li>
-		</ul>
+					</a>
+				</li>
+				<li><a href="#seccion-3">Portafolio</a></li>
+			</ul>
 		</nav>
-		<div class="container-fluid text-center" id="seccion-0">
+	<div class="container-fluid text-center auto-responsive" id="seccion-0">
 		<br><br>
-			<h1 class="pacifico text-center">Mike Mancera</h1>
-			<h2 class="rokkit text-center">Systems Developer Jr</h2><br>
-			<img src="https://pixabay.com/static/uploads/photo/2015/03/29/08/55/entrepreneur-696976_960_720.png" class="img-responsive center-block" alt="developer"><br>
-		</div>
-	<br><br>
+		<h1 class="pacifico text-center visible-lg visible-md">EasyTools</h1><br>
+		<h2 class="pacifico text-center visible-xs visible-xm">EasyTools</h2><br>
+		<h2 class="rokkit text-center">Systems Development</h2>
+		<img id="principal" class="visible-lg visible-md img-responsive center-block text-center" src="http://jonatancaraballo.com/img/desarrollo-web1.png">
+		<img id="principalxs" class="visible-xs visible-xm img-responsive center-block text-center" src="http://www.corelynx.com/sites/default/files/technologies/enterprise-software-services.png">
+	</div>
 	<hr>
-	<div class="container center-block auto-responsive">	
-		<h2 class="pacifico	 text-center" id="seccion-1"><br>Bienvenido a mi Site</h2>
-		
-		<div class="secciones well center-block">
-			<br><p class="text-justify">Hola, soy Mike y este es mi web site, donde escribo acerca de lo que me gusta hacer, como el desarrollo web, de escritorio, entre otras cosas, aqui puede encontrar algunos de mis proyectos sobre Web Developing, DesktopApp, Administración de Proyectos Informaticos entre otros. Reviselos, y pongase en contacto en caso de que necesite ayuda para algun proyecto en especifico.
-			</p>
-			<img class="center-block img-responsive" src="https://pixabay.com/static/uploads/photo/2015/01/21/14/14/macbook-606763_960_720.jpg" alt="equipos">
-		</div>
-	</div>
-	<div class="container auto-responsive">
-		<h2 class="text-center pacifico" id="seccion-2"><br>Acerca de</h2>
+	<div class="container auto-responsive visible-lg visible-md">
+		<h2 class="text-center pacifico" id="seccion-2"><br>EasyTools</h2>
 		<div class="secciones well center-block">
 			
-			<br><p class="text-justify">Soy estudiante de la Carrera de Sistemas Computacionales, me apaciona el desarrollo de softaware y aplicaciones web, mi objetivo laboral es: Participar en una empresa o institución, que ofrezca la oportunidad de mi desarrollo profesional para aplicar de manera eficiente los conocimientos adquiridos en mi formación académica y mejorar en el ambiente profesional.
-			</p>
-			<img class="center-block img-responsive" src="https://pixabay.com/static/uploads/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt"acerca de">
+			<div class="row">
+				<div class="col-xs-6">
+					<img class="center-block" id="ti" src="http://www.eminsa.com.mx/attachments/Image/icono-servicio.png" alt="">
+					<h3 class="center-block text-center ">
+					<strong>Misión</strong><hr>
+					</h3>
+					<p class="text-justify">
+						Brindar soluciones de Tecnologás de la Información eficientes e inovadoras.
+					</p><hr>
+					<img class="center-block" id="consultoria" src="http://www.eminsa.com.mx/attachments/Image/icono-casos_exito.png" alt=""><hr>
+					<p class="text-justify">
+						En <strong>EasyTools</strong> Somos una Empresa dedicada al Desarrollo de Software, donde se establece un vínculo de TECNOLOGÍA DE LA INFORMACIÓN con las pequeñas y medianas empresas (PyMES), a fin de implementar estrategias conjuntas de innovación que favorezcan su productividad y crecimiento de forma exponencial.
+					</div>
+					<div class="col-xs-6">
+						<img class="center-block" id="ti" src="http://www.esehjll.gov.co/wp-content/uploads/2016/04/mision.png" alt="">
+						<h3 class="center-block text-center ">
+						<strong>Visión</strong><hr>
+						</h3>
+						<p class="text-justify">
+							Ser una Empresa líder en el Desarrollo de Software de alta calidad para nuestros clientes.
+						</p><hr>
+						
+						<img class="center-block" id="consultoria" src="http://www.eminsa.com.mx/attachments/Image/icono-acreditaciones.png" alt=""><hr>
+						<p class="text-justify">
+							Garantizamos a nuestros clientes un servicio de calidad dirigido a cualquier perfil de empresa independiente del mercado en el que opere.
+							Nos especializamos en Desarrollo, Pruebas, Implementación, Mantenimiento de Software y en metodologías ágiles para el ciclo de vida de software, así como Aplicaciones Web y Software de escritorio.
+						</p>
+					</div>
+				</div>
+				<img class="center-block img-responsive" src="http://www.navantis.com/wp-content/uploads/2015/01/CRM_Globe.png" alt"acerca de">
+			</div>
 		</div>
-	</div>
-	<div class="container auto-responsive">
-		<h2 class="text-center pacifico" id="seccion-3"><br>Proyectos</h2>
-		<div class="secciones well center-block">
-			<img  id="pingux" src="https://pixabay.com/static/uploads/photo/2014/04/03/10/43/apple-311246_960_720.png" class="img-responsive center-block" alt="pingux">
-			
-			<br><p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="container auto-responsive visible-xs visible-xm">
+			<h2 class="text-center pacifico" id="seccion-2"><br>EasyTools</h2>
+			<div class="secciones well center-block">
+				<img class="center-block" id="ti" src="http://www.eminsa.com.mx/attachments/Image/icono-servicio.png" alt="">
+				<h3 class="center-block text-center ">
+				<strong>Misión</strong><hr>
+				</h3>
+				<p class="text-justify">
+					Brindar soluciones de Tecnologás de la Información eficientes e inovadoras.
+				</p><hr>
+				<img class="center-block" id="ti" src="http://www.esehjll.gov.co/wp-content/uploads/2016/04/mision.png" alt="">
+				<h3 class="center-block text-center ">
+				<strong>Visión</strong><hr>
+				</h3>
+				<p class="text-justify">
+					Ser una Empresa líder en el Desarrollo de Software de alta calidad para nuestros clientes.
+				</p><hr>
+				<img class="center-block" id="consultoria" src="http://www.eminsa.com.mx/attachments/Image/icono-casos_exito.png" alt=""><hr>
+				<p class="text-justify">
+					En <strong>EasyTools</strong> Somos una Empresa dedicada al Desarrollo de Software, donde se establece un vínculo de TECNOLOGÍA DE LA INFORMACIÓN con las pequeñas y medianas empresas (PyMES), a fin de implementar estrategias conjuntas de innovación que favorezcan su productividad y crecimiento de forma exponencial.
+				</p><hr>
+				<img class="center-block" id="consultoria" src="http://www.eminsa.com.mx/attachments/Image/icono-acreditaciones.png" alt=""><hr>
+				<p class="text-justify">
+					Garantizamos a nuestros clientes un servicio de calidad dirigido a cualquier perfil de empresa independiente del mercado en el que opere.
+					Nos especializamos en Desarrollo, Pruebas, Implementación, Mantenimiento de Software y en metodologías ágiles para el ciclo de vida de software, así como Aplicaciones Web y Software de escritorio.
+				</p><hr>
+				<img class="center-block visible-lg visible-md img-responsive" src="http://www.navantis.com/wp-content/uploads/2015/01/CRM_Globe.png" alt"acerca de">
+			</div>
 		</div>
-	</div>
-	<div class="container auto-responsive">
-		<h2 class="pacifico text-center" id="seccion-4"><br>Video</h2>
-		<div class="secciones well center-block text-center auto-responsive">
-			
-			<br>
-			<iframe width="320" height="280" src="https://www.youtube.com/embed/WU3UIrq3ix8" frameborder="0" allowfullscreen></iframe><br><br>
-			<iframe width="320" height="280" src="https://www.youtube.com/embed/yNnEyLw6MA4" frameborder="0" allowfullscreen></iframe>
+		<div class="container auto-responsive visible-lg visible-md">
+			<h2 class="text-center rokkit" id="seccion-3"><br>Portafolio</h2>
+			<div class="secciones well center-block">
+				<div class="row">
+					<div class="col-xs-4">
+						<h2 class="center-block text-center rokkits">EduSoft</h2>
+						<img class="center-block" id="consultoria" src="http://www.colegiojosefinas.es/laasuncion/images/Bachillerato.png" alt=""><hr>
+						<p class="text-justify">
+							Desktop Software ó WebApp de Gestion Escolar, Toma el control de tu(s) colegio(s) en un solo lugar.
+							<a href="">Leer Mas...</a>
+						</p>
+					</div>
+					
+					<div class="col-xs-4">
+						<h2 class="center-block text-center rokkits">EasyTools Pro</h2>
+						<img class="center-block" id="consultoria" src="http://isotelia.es/images/iconoLaboral.png" alt=""><hr>
+						<p class="text-justify">
+							CRM de EasyTool, Integridad a tu alcance, administra tu empresa ó negocio, con solo unos clicks.
+							<a href="">Leer Mas...</a>
+						</p>
+					</div>
+					<div class="col-xs-4">
+						<h2 class="center-block text-center rokkits">FutSoft7</h2>
+						<img class="center-block" id="consultoria" src="http://descargarapkgratis.net/wp-content/uploads/2015/04/descargar-forza-f%C3%BAtbol-apk-gratis-11.png" alt=""><hr>
+						<p class="text-justify">
+							Administracion de canchas de Futbol, con FutSoft dirige y organiza tu liga, desde internet o sin conexión.
+							<a target="_blank" href="https://www.facebook.com/futsoft7/">Leer Mas...</a>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-	<br>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<div class="container auto-responsive visible-xs visible-xm">
+			<h2 class="text-center rokkit" id="seccion-3"><br>Portafolio</h2><hr>
+			<div class="secciones well center-block">
+				<h2 class="center-block text-center rokkits">EduSoft</h2>
+						<img class="center-block" id="consultoria" src="http://www.colegiojosefinas.es/laasuncion/images/Bachillerato.png" alt=""><hr>
+						<p class="text-justify">
+							Desktop Software ó WebApp de Gestion Escolar, Toma el control de tu(s) colegio(s) en un solo lugar.
+							<a href="">Leer Mas...</a>
+						</p><hr>
+				<h2 class="center-block text-center rokkits">EasyTools Pro</h2>
+						<img class="center-block" id="consultoria" src="http://isotelia.es/images/iconoLaboral.png" alt=""><hr>
+						<p class="text-justify">
+							CRM de EasyTool, Integridad a tu alcance, administra tu empresa ó negocio, con solo unos clicks.
+							<a href="">Leer Mas...</a>
+						</p><hr	
+				<h2 class="center-block text-center rokkits">FutSoft7</h2>
+						<img class="center-block" id="consultoria" src="http://descargarapkgratis.net/wp-content/uploads/2015/04/descargar-forza-f%C3%BAtbol-apk-gratis-11.png" alt=""><hr>
+						<p class="text-justify">
+							Administracion de canchas de Futbol, con FutSoft dirige y organiza tu liga, desde internet o sin conexión.
+							<a target="_blank" href="https://www.facebook.com/futsoft7/">Leer Mas...</a>
+						</p><hr>
+			</div>
+		</div>
+		<div class="container auto-responsive visible-lg visible-md">
+			<h2 class="pacifico text-center" id="seccion-4"><br>Videos</h2>
+			<div class="secciones well center-block text-center auto-responsive">	
+				<br>
+				<h2 class="rokkit text-center">¿Qué es un CRM?</h2><br>
+				
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/IWn57LyPiYE" frameborder="0" allowfullscreen></iframe><hr>
 
-	<script type="text/javascript">
-			$('html').css({display: 'none'}); // Oculta toda la página en modo 'none'
-			function smoothScrollTo(anchor) {
-			var duration = 1000; // Tiempo en millisegutos que tomará en alcanzar el ancla marcada con el id
-			var targetY = $(anchor).offset().top;
-			$("html, body").animate({
-			"scrollTop" : targetY
-			}, duration, 'easeInOutCubic');
+				<h2 class="rokkit text-center">¿Software en línea?</h2><br>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/GyxhpRln7vI" frameborder="0" allowfullscreen></iframe><hr>
+			</div>
+		</div>
+		<div class="container auto-responsive visible-xs visible-xm">
+			<h2 class="pacifico text-center" id="seccion-4"><br>Videos</h2>
+			<div class="secciones well center-block text-center auto-responsive">	
+				<br>
+				<h2 class="rokkit text-center">¿Qué es un CRM?</h2><br>
+				
+				<iframe width="300" height="270" src="https://www.youtube.com/embed/IWn57LyPiYE" frameborder="0" allowfullscreen></iframe><hr>
+
+				<h2 class="rokkit text-center">¿Software en línea?</h2><br>
+
+				<iframe width="300" height="270" src="https://www.youtube.com/embed/GyxhpRln7vI" frameborder="0" allowfullscreen></iframe><hr>
+			</div>
+		</div>
+
+		<br>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script type="text/javascript">
+				$('html').css({display: 'none'}); // Oculta toda la página en modo 'none'
+				function smoothScrollTo(anchor) {
+				var duration = 1000; // Tiempo en millisegutos que tomará en alcanzar el ancla marcada con el id
+				var targetY = $(anchor).offset().top;
+				$("html, body").animate({
+				"scrollTop" : targetY
+				}, duration, 'easeInOutCubic');
+				}
+				$(document).ready(function(){
+			var hashURL = location.hash;
+			if(hashURL != "" && hashURL.length > 1){ // index.html#seccion-1
+			$(window).scrollTop(0); // Desplaza la página hasta arriba o inicio
+			$('html').css({display: 'block'}); // Muestra toda la página en modo bloque
+			smoothScrollTo(hashURL); // Desplazate muy suave hasta donde está el hastag indicado en la url
+			} else {
+			$('html').css({display: 'block'}); // Muestra toda la página en modo bloque y ya
 			}
-			$(document).ready(function(){
-		var hashURL = location.hash;
-		if(hashURL != "" && hashURL.length > 1){ // index.html#seccion-1
-		$(window).scrollTop(0); // Desplaza la página hasta arriba o inicio
-		$('html').css({display: 'block'}); // Muestra toda la página en modo bloque
-		smoothScrollTo(hashURL); // Desplazate muy suave hasta donde está el hastag indicado en la url
-		} else {
-		$('html').css({display: 'block'}); // Muestra toda la página en modo bloque y ya
-		}
-			});
-			// Esto hace que lo hipervínculos funcionen con el desplazamiento suave
-			$('a[href^="#"]').bind('click', function(event){
-	var anchor = $(this).attr('href');
-	smoothScrollTo(anchor);
-	return false; //????
-	});
-	</script>
-</body>
-<footer>
-	<div class="container-fluid well text-center" id="seccion-5">
-		<p>
-			Mike Mancera Developer Copyleft 2016 | Buscame en <a href="https://github.com/mikemancera12" target="_blank">Mike Mancera12</a>
-		</p>
-	</div>
-</footer>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+				});
+				// Esto hace que lo hipervínculos funcionen con el desplazamiento suave
+				$('a[href^="#"]').bind('click', function(event){
+		var anchor = $(this).attr('href');
+		smoothScrollTo(anchor);
+		return false; //????
+		});
+		</script>
+	</body>
+	<footer>
+		<div class="container center-block auto-responsive">
+		<h2 class="pacifico" id="seccion-5"><br>Contacto</h2>
+			<div class="row">
+				<form action="" method="post" accept-charset="utf-8">
+					<label>NOMBRE</label><br>
+					<input type="text" name="nombre" placeholder="Ingresa tu Nombre"><br>
+					<label>EMAIL</label><br>
+					<input type="email" name="correo" placeholder="example@mail.com">
+					<br><a class="btn btn-primary" href="mailto:mikemancera12@gmail.com?subject=EasyTools" "email me">Contactanos</a>
+				</form>
+			</div>
+		</div>
+		<div class="container-fluid well text-center" >
+			<p>
+				EasyTools Copyleft 2016 | Powered By <a href="https://github.com/mikemancera12" target="_blank">Mike Mancera12</a>
+			</p>
+		</div>
+	</footer>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
 </body>
 </html>
