@@ -107,7 +107,7 @@
 	</head>
 	<body>
 		
-		<nav id="navbar1" class="navbar navbar-default visible-lg visible-md">
+		<nav id="navbar1" class="navbar navbar-default visible-lg visible-md visible-sm">
 			<ul class="nav nav-pills">
 				<li role="presentation" class="active"><a href="#seccion-0">Inicio</a></li>
 				<li role="presentation"><a href="#seccion-2">Nosotros</a></li>
@@ -118,25 +118,41 @@
 				
 			</ul>
 		</nav>
-		<nav class="navbar navbar-default visible-xs visible-xm">
-			<ul class="nav nav-pills nav-stacked">
-				<li><a href="#seccion-0" title="">
-					<img id="imgmenu" src="https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png" alt="">
-					</a>
-				</li>
-				<li><a href="#seccion-3">Portafolio</a></li>
+		
+		<nav class="dropdown navbar navbar-default visible-xs visible-xm">
+			<a id="dLabel" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+			<img id="imgmenu" src="https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png" alt="">
+				
+				<span class="caret"></span>
+			</a>
+			<ul class="nav navbar-pills nav-stacked dropdown-menu" aria-labelledby="dLabel">
+				<li role="button"><a href="#seccion-6">Nosotros</a></li>
+				<li role="button"><a href="#seccion-7">Portafolio</a></li>
+				<li role="button"><a href="#seccion-8">Videos</a></li>
+				<li role="button"><a href="#seccion-5">Contacto</a></li>
 			</ul>
 		</nav>
+		<!--
+				<nav class="navbar navbar-default visible-xs visible-xm">
+						<ul class="nav nav-pills nav-stacked">
+								<li><a href="#seccion-0" title="">
+										<img id="imgmenu" src="https://www.newfangled.com/wp-content/uploads/2014/08/stuffcontentmgrfiles2ac67e44c30a21635f8a9d498f832bc1cmisc_resized80_313_257_hamenu.png" alt="">
+									</a>
+							</li>
+							
+					</ul>
+			</nav>
+	-->
 	<div class="container-fluid text-center auto-responsive" id="seccion-0">
 		<br><br>
 		<h1 class="pacifico text-center visible-lg visible-md">EasyTools</h1><br>
 		<h2 class="pacifico text-center visible-xs visible-xm">EasyTools</h2><br>
 		<h2 class="rokkit text-center">Systems Development</h2>
-		<img id="principal" class="visible-lg visible-md img-responsive center-block text-center" src="http://jonatancaraballo.com/img/desarrollo-web1.png">
+		<img id="principal" class="visible-lg visible-md visible-sm img-responsive center-block text-center" src="http://jonatancaraballo.com/img/desarrollo-web1.png">
 		<img id="principalxs" class="visible-xs visible-xm img-responsive center-block text-center" src="http://www.corelynx.com/sites/default/files/technologies/enterprise-software-services.png">
 	</div>
 	<hr>
-	<div class="container auto-responsive visible-lg visible-md">
+	<div class="container auto-responsive visible-lg visible-md visible-sm">
 		<h2 class="text-center pacifico" id="seccion-2"><br>EasyTools</h2>
 		<div class="secciones well center-block">
 			
@@ -173,7 +189,7 @@
 			</div>
 		</div>
 		<div class="container auto-responsive visible-xs visible-xm">
-			<h2 class="text-center pacifico" id="seccion-2"><br>EasyTools</h2>
+			<h2 class="text-center pacifico" id="seccion-6"><br>EasyTools</h2>
 			<div class="secciones well center-block">
 				<img class="center-block" id="ti" src="http://www.eminsa.com.mx/attachments/Image/icono-servicio.png" alt="">
 				<h3 class="center-block text-center ">
@@ -201,7 +217,7 @@
 				<img class="center-block visible-lg visible-md img-responsive" src="http://www.navantis.com/wp-content/uploads/2015/01/CRM_Globe.png" alt"acerca de">
 			</div>
 		</div>
-		<div class="container auto-responsive visible-lg visible-md">
+		<div class="container auto-responsive visible-lg visible-md visible-sm">
 			<h2 class="text-center rokkit" id="seccion-3"><br>Portafolio</h2>
 			<div class="secciones well center-block">
 				<div class="row">
@@ -234,55 +250,50 @@
 			</div>
 		</div>
 		<div class="container auto-responsive visible-xs visible-xm">
-			<h2 class="text-center rokkit" id="seccion-3"><br>Portafolio</h2><hr>
+			<h2 class="text-center rokkit" id="seccion-7"><br>Portafolio</h2><hr>
 			<div class="secciones well center-block">
 				<h2 class="center-block text-center rokkits">EduSoft</h2>
-						<img class="center-block" id="consultoria" src="http://www.colegiojosefinas.es/laasuncion/images/Bachillerato.png" alt=""><hr>
-						<p class="text-justify">
-							Desktop Software ó WebApp de Gestion Escolar, Toma el control de tu(s) colegio(s) en un solo lugar.
-							<a href="">Leer Mas...</a>
-						</p><hr>
+				<img class="center-block" id="consultoria" src="http://www.colegiojosefinas.es/laasuncion/images/Bachillerato.png" alt=""><hr>
+				<p class="text-justify">
+					Desktop Software ó WebApp de Gestion Escolar, Toma el control de tu(s) colegio(s) en un solo lugar.
+					<a href="">Leer Mas...</a>
+				</p><hr>
 				<h2 class="center-block text-center rokkits">EasyTools Pro</h2>
-						<img class="center-block" id="consultoria" src="http://isotelia.es/images/iconoLaboral.png" alt=""><hr>
-						<p class="text-justify">
-							CRM de EasyTool, Integridad a tu alcance, administra tu empresa ó negocio, con solo unos clicks.
-							<a href="">Leer Mas...</a>
-						</p><hr	
+				<img class="center-block" id="consultoria" src="http://isotelia.es/images/iconoLaboral.png" alt=""><hr>
+				<p class="text-justify">
+					CRM de EasyTool, Integridad a tu alcance, administra tu empresa ó negocio, con solo unos clicks.
+					<a href="">Leer Mas...</a>
+				</p><hr
 				<h2 class="center-block text-center rokkits">FutSoft7</h2>
-						<img class="center-block" id="consultoria" src="http://descargarapkgratis.net/wp-content/uploads/2015/04/descargar-forza-f%C3%BAtbol-apk-gratis-11.png" alt=""><hr>
-						<p class="text-justify">
-							Administracion de canchas de Futbol, con FutSoft dirige y organiza tu liga, desde internet o sin conexión.
-							<a target="_blank" href="https://www.facebook.com/futsoft7/">Leer Mas...</a>
-						</p><hr>
+				<img class="center-block" id="consultoria" src="http://descargarapkgratis.net/wp-content/uploads/2015/04/descargar-forza-f%C3%BAtbol-apk-gratis-11.png" alt=""><hr>
+				<p class="text-justify">
+					Administracion de canchas de Futbol, con FutSoft dirige y organiza tu liga, desde internet o sin conexión.
+					<a target="_blank" href="https://www.facebook.com/futsoft7/">Leer Mas...</a>
+				</p><hr>
 			</div>
 		</div>
-		<div class="container auto-responsive visible-lg visible-md">
+		<div class="container auto-responsive visible-lg visible-md visible-sm">
 			<h2 class="pacifico text-center" id="seccion-4"><br>Videos</h2>
-			<div class="secciones well center-block text-center auto-responsive">	
+			<div class="secciones well center-block text-center auto-responsive">
 				<br>
 				<h2 class="rokkit text-center">¿Qué es un CRM?</h2><br>
 				
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/IWn57LyPiYE" frameborder="0" allowfullscreen></iframe><hr>
-
 				<h2 class="rokkit text-center">¿Software en línea?</h2><br>
-
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/GyxhpRln7vI" frameborder="0" allowfullscreen></iframe><hr>
 			</div>
 		</div>
 		<div class="container auto-responsive visible-xs visible-xm">
-			<h2 class="pacifico text-center" id="seccion-4"><br>Videos</h2>
-			<div class="secciones well center-block text-center auto-responsive">	
+			<h2 class="pacifico text-center" id="seccion-8"><br>Videos</h2>
+			<div class="secciones well center-block text-center auto-responsive">
 				<br>
 				<h2 class="rokkit text-center">¿Qué es un CRM?</h2><br>
 				
 				<iframe width="300" height="270" src="https://www.youtube.com/embed/IWn57LyPiYE" frameborder="0" allowfullscreen></iframe><hr>
-
 				<h2 class="rokkit text-center">¿Software en línea?</h2><br>
-
 				<iframe width="300" height="270" src="https://www.youtube.com/embed/GyxhpRln7vI" frameborder="0" allowfullscreen></iframe><hr>
 			</div>
 		</div>
-
 		<br>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -315,7 +326,7 @@
 	</body>
 	<footer>
 		<div class="container center-block auto-responsive">
-		<h2 class="pacifico" id="seccion-5"><br>Contacto</h2>
+			<h2 class="pacifico" id="seccion-5"><br>Contacto</h2>
 			<div class="row">
 				<form action="" method="post" accept-charset="utf-8">
 					<label>NOMBRE</label><br>
